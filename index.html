@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js"></script>   
+    <script src="script.js"></script>  
+    <link rel="stylesheet" href="estilo.css"> 
 </head>
 <body>
-    <header>
+    <header class="header_title">
         <h1>DOM - Document Object Model</h1>
     </header>
 
-    <section>
-        <div>
-            <input type="number" name="num1"  id="num1" >
-            <input type="number"  name="num2" id="num2">
-            <input type="button" value="+" onclick="somar()" id="soma">
-            <input type="button" value="-" onclick="subt()" id="sub">
-            <input type="button" value="*" onclick=" mult()" id="mult">
-            <input type="button" value="/" onclick="div()" id="div">
-            <input type="button" value="Limpar" onclick="limpar()" id="lim">
+    <section class="section">
+        <div class="section_calc">
+            <input type="number" name="num1"  id="num1" class="input">
+            <input type="number"  name="num2" id="num2" class="input"> 
+            <input type="button" value="+" onclick="somar()" id="soma" class="button">
+            <input type="button" value="-" onclick="subt()" id="sub" class="button">
+            <input type="button" value="*" onclick=" mult()" id="mult" class="button">
+            <input type="button" value="/" onclick="div()" id="div" class="button">
+            <input type="button" value="Limpar" onclick="limpar()" id="lim" class="button_lim">
 
             <p id="resultado">Resultado</p>
         </div>

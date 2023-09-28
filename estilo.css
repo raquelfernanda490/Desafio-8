@@ -1,0 +1,55 @@
+body{
+    font-family: sans-serif;
+}
+.header_title{
+    text-align: center;
+    color:rgb(202, 88, 202)
+}
+
+.section{
+    border: 10px plum solid;
+    border-radius: 5px;
+    width: 40em;
+    height: 10em;
+    margin: auto;
+}
+
+.section_calc{
+    text-align: center;
+    margin: 3em;
+}
+
+.input{
+    width: 6em;
+    height: 2em;
+    margin: 1em;
+    border-radius: 5px;
+    border: 3px plum solid;
+    background-color: plum;
+    color: white;
+    text-align: center;
+}
+
+.button{
+    background-color: plum;
+    width: 3em;
+    height: 3em;
+    border: 2px plum solid;
+    border-radius: 5px;
+    color: white;
+}
+
+.button_lim{
+    background-color: plum;
+    width: 6em;
+    height: 3em;
+    border: 2px plum solid;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.section_calc p{
+    color: rgb(202, 88, 202);
+    font-size: 1.5em;
+}

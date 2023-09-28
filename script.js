@@ -84,9 +84,9 @@ function lim(){
     var c2 = document.getElementById('num2');
     var result = document.getElementById ('resultado');
 
-    c1.value = '';
-    c2.value = '';
+    c1.value = ''
+    c2.value = ''
 
-    result.innerText = 'Digite os numeros acima'
+    result.innerText = 'Resultado'
 }
 
